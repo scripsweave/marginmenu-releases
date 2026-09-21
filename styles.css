@@ -39,18 +39,9 @@ h1 span { color: var(--secondary); }
 .requirements { margin-top: 13px; font-size: 12px; line-height: 1.6; color: var(--secondary); }
 .requirements span { padding-inline: 4px; }
 
-.example { max-width: 760px; margin: 0 auto; padding: 24px 32px 20px; border-radius: 24px; background: linear-gradient(135deg, #fff, #f3f2ef); box-shadow: 0 0 0 1px rgb(0 0 0 / .06), 0 2px 4px rgb(0 0 0 / .025), 0 18px 45px -26px rgb(0 0 0 / .2); }
-.example-heading { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--secondary); }
-.menu-mark { display: grid; place-items: center; width: 25px; height: 22px; background: #eae9e6; border-radius: 6px; font-size: 14px; font-weight: 600; color: var(--ink); }
-.values { display: grid; grid-template-columns: repeat(3, 1fr); padding: 24px 0 22px; }
-.values > div { padding-inline: 26px; border-left: 1px solid var(--rule); }
-.values > div:first-child { border: 0; padding-left: 0; }
-.values > div:last-child { padding-right: 0; }
-dt { color: var(--secondary); font-size: 13px; margin-bottom: 8px; }
-dd { font-size: clamp(30px, 4vw, 42px); font-weight: 500; line-height: 1.2; letter-spacing: -.045em; font-variant-numeric: tabular-nums; }
-.result dd { color: #856015; }
-.percent { font-size: .68em; padding-left: 4px; }
-figcaption { border-top: 1px solid var(--rule); padding-top: 17px; font-size: 12px; line-height: 1.6; color: var(--secondary); }
+.app-preview { max-width: 760px; margin: 0 auto; padding: 36px 24px 24px; border-radius: 24px; background: linear-gradient(135deg, #f3f2ef, #f6f6f5); }
+.app-preview img { width: 360px; margin-inline: auto; border-radius: 16px; outline: 1px solid rgb(0 0 0 / .1); outline-offset: -1px; box-shadow: 0 4px 12px rgb(0 0 0 / .04), 0 20px 40px -14px rgb(0 0 0 / .16); }
+.app-preview figcaption { margin-top: 24px; text-align: center; font-size: 12px; line-height: 1.6; color: var(--secondary); }
 
 .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 38px; padding: 66px 0 54px; }
 h2 { font-size: 16px; line-height: 1.5; font-weight: 600; letter-spacing: -.35px; }
@@ -73,11 +64,7 @@ h2 { font-size: 16px; line-height: 1.5; font-weight: 600; letter-spacing: -.35px
   .intro { font-size: 16px; max-width: 340px; margin-inline: auto; }
   .desktop-break { display: none; }
   .requirements { max-width: 250px; margin-inline: auto; }
-  .example { padding: 20px; border-radius: 20px; }
-  .values > div { padding-inline: 14px; }
-  dt { font-size: 11px; }
-  dd { font-size: 30px; }
-  figcaption { font-size: 11px; }
+  .app-preview { padding: 24px 16px 20px; border-radius: 20px; }
   .features { grid-template-columns: 1fr; gap: 26px; padding: 42px 0; }
   .features p { margin-top: 6px; max-width: 48ch; }
   .installation { grid-template-columns: 1fr; gap: 18px; }
