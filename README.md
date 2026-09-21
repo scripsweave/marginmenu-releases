@@ -2,6 +2,8 @@
 
 A native macOS menu bar calculator for cost, revenue, and gross margin. Enter two values and adjust the result using sliders.
 
+[Website](https://scripsweave.github.io/marginmenu-releases/)
+
 ## Download
 
 [Download the latest notarized installer](https://github.com/scripsweave/marginmenu-releases/releases/latest/download/MarginMenu.dmg)
